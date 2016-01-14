@@ -127,14 +127,17 @@ input[type="checkbox"] {
 label span, legend span {
   font-size: 13px;
   font-weight: 400;
-  color: #444; }
+  color: #444;
+}
 
 .port-info .title, .lightbox-btn .title, .port-overlay .title, .hex-info, .circle-info, .testimonial .name, .page-title, .section-title, .alt-font, p.alt-text, .alt-text, .counter, .process-box .num {
-  font-family: 'Crimson Text', serif; }
+  font-family: 'Roboto', sans-serif;
+}
 
 .sect-inner, .hexes-content.sect .inner {
   padding-top: 60px;
-  padding-bottom: 60px; }
+  padding-bottom: 60px;
+}
 
 .project:before, .header .main_menu .menu-cols-item .menu-cols:before, .post-info:before, .code-example:before, .project:after, .header .main_menu .menu-cols-item .menu-cols:after, .post-info:after, .code-example:after {
   content: " ";
@@ -1671,7 +1674,7 @@ form .error, form .error:focus {
 /* ===================================================== */
 
 .map-holder {
-  height: 100px;
+  height: 200px;
   position: relative;
   overflow: hidden;
   -webkit-transition: height .5s ease;
